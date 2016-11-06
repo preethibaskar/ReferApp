@@ -7,5 +7,6 @@ class HomePageView(TemplateView):
     def get(self, request, **kwargs):
         return render(request, 'index.html')
 
+#View for the About-me page.
 class AboutPageView(TemplateView):
     template_name = "about.html"
